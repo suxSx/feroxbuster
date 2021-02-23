@@ -14,7 +14,7 @@ Vcs-Git: https://gitlab.com/kalilinux/packages/feroxbuster.git
 Rules-Requires-Root: no
 
 Package: feroxbuster
-Architecture: all
+Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}, fonts-noto-color-emoji
 Description: A fast, simple, recursive content discovery tool written in Rust.
   feroxbuster is a tool designed to perform Forced Browsing.
